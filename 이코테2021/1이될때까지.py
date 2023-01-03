@@ -1,10 +1,11 @@
 import time
 
+# 모범답안
 N, K = map(int, input().split())
 
 # 시작
 start_time = time.time()
-# 모범답안
+
 count = 0
 
 while True:
@@ -25,7 +26,7 @@ end_time = time.time()
 print("time:", end_time-start_time)
 
 """
-# 처음 생각한 풀이
+# 초기 풀이
 count = 0
 
 while N > 1:
