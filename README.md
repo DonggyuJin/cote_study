@@ -2,7 +2,8 @@
 
 > 참고: 이코테 2021 (https://youtu.be/m-9pAwq1o3w)  
 > 참고: 백준 (https://www.acmicpc.net/)  
-> 참고: 프로그래머스 (https://programmers.co.kr/)
+> 참고: 프로그래머스 (https://programmers.co.kr/)  
+> 참고: 코드업 (https://codeup.kr/)
 
 ## 설명
 
