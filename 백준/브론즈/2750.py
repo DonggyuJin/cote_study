@@ -1,6 +1,13 @@
-N=int(input())
-data=[]
+import sys
+ss = sys.stdin.readline
 
+N=int(input())
+data = [int(ss()) for _ in range(N)]
+data.sort()
+
+for i in data:print(i, sep='\n')
+
+# data=[]
 # for _ in range(N): data.append(int(input()))
 # for j in range(N):
 #     for i in range(N-1):
@@ -11,6 +18,3 @@ data=[]
 #             data[i]=temp
 
 # for i in range(len(data)):print(data[i])
-# 정렬함수 이용
-data.sort()
-for i in data:print(i, sep='\n')
