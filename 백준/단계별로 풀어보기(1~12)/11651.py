@@ -1,14 +1,12 @@
 import sys
 N=int(sys.stdin.readline())
-x,y=[],[]
+data=[]
 
 for _ in range(N):
     a,b=map(int,sys.stdin.readline().split())
-    x.append(a)
-    y.append(b)
+    data.append([a,b])
 
-x.sort()
-y.sort()
+data.sort(key=lambda x:(x[1], x[0]))
 
-for i in range(N):
-    print(x[i],y[i])
+for i in data:
+    print(i[0], i[1])
