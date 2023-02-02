@@ -1,6 +1,6 @@
-from itertools import permutations, combinations
+from itertools import permutations
 
 n,m=map(int, input().split())
-data = list(combinations([i for i in range(1, n+1)], m))
+data = list(permutations([i for i in range(1, n+1)], m))
 
 for i in range(len(data)): print(*data[i])
