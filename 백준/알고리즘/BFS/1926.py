@@ -21,7 +21,7 @@ def bfs(y, x):
       if 0 <= ny < n and 0 <= nx < m:
         if map[ny][nx] == 1 and chk[ny][nx] == False:
           chk[ny][nx] = True
-          rs += 1
+          rs += 1 
           q.append((ny, nx))
   return rs
 
