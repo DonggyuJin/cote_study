@@ -38,4 +38,4 @@ getCombinations(input, 7).forEach((comb) =>
   comb.reduce((pre, cur) => pre + cur) === 100 ? (result = comb) : null
 );
 
-console.log(result.sort((a, b) => a - b));
+console.log(result.sort((a, b) => a - b).join("\n"));
