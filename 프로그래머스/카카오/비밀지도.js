@@ -20,7 +20,5 @@ function solution(n, arr1, arr2) {
     answer.push(temp);
   }
 
-  console.log(map1, map2);
-
   return answer;
 }
