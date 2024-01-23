@@ -18,7 +18,8 @@ function solution(cacheSize, cities) {
       stack.shift();
     } else {
       answer += 1;
-      stack = stack.filter((el, index) => index !== idx);
+      stack.splice(idx, 1);
+      // stack = stack.filter((el, index) => index !== idx);
     }
     stack.push(city);
   }
