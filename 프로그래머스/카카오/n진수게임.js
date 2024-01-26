@@ -2,7 +2,7 @@ function solution(n, t, m, p) {
   var answer = "";
 
   let temp = "";
-  for (let i = 0; i < t * t; i++) {
+  for (let i = 0; i < m * t; i++) {
     temp += i.toString(n);
   }
 
