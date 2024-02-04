@@ -88,29 +88,11 @@ function solution(queue1, queue2) {
 //     }
 // }
 
-// const getCombinations = (arr, selectNumber) => {
-//     const results = [];
-//     if(selectNumber === 1) return arr.map((el) => [el]);
-
-//     arr.forEach((fixed, index, origin) => {
-//     	const rest = origin.slice(index + 1);
-//         const combinations = getCombinations(rest, selectNumber - 1);
-//         const attached = combinations.map((el) => [fixed, ...el]);
-//         results.push(...attached);
-//     });
-//     return results;
-// }
-
 // function solution(queue1, queue2) {
 //     var answer = 0;
 
 //     const queue = [...queue1, ...queue2];
 //     const divide = parseInt(queue.reduce((sum, cur) => sum + cur, 0) / 2);
-
-//     let comb = [];
-//     for(let i=1; i<=queue.length; i++){
-//         comb = [...comb, ...getCombinations(queue, i)];
-//     }
 
 //     const q1 = new Queue();
 //     const q2 = new Queue();
