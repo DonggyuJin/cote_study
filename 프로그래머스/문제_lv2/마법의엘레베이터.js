@@ -8,10 +8,7 @@ function solution(storey) {
   }
 
   for (let i = 0; i < list.length; i++) {
-    if (list[i] >= 10) {
-      if (i + 1 < list.length) list[i + 1]++;
-      else answer++;
-    } else if (list[i] < 5) answer += list[i];
+    if (list[i] < 5) answer += list[i];
     else if (list[i] > 5) {
       answer += 10 - list[i];
       if (i + 1 < list.length) list[i + 1]++;
