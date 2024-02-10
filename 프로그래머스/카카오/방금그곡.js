@@ -39,7 +39,6 @@ function solution(m, musicinfos) {
       }
     }
     tempMel = tempMel.filter((el) => el !== " ");
-    let flag = false;
     for (let i = 0; i < tempMel.length; i++) {
       if (
         JSON.stringify(tempMel.slice(i, i + mel.length)) === JSON.stringify(mel)
